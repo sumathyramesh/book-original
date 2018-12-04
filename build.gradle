@@ -8,8 +8,8 @@ buildscript {
 		maven {
 			url "https://sres.web.boeing.com/artifactory/Maven-Snapshots"
 			credentials {
-				username "bemsid"
-				password "<key>"
+				username mavenUser
+				password mavenPassword
 			}
 		}
 	}
@@ -34,8 +34,8 @@ repositories {
 	maven {
 		url "https://sres.web.boeing.com/artifactory/Maven-Snapshots"
 		credentials {
-			username "2056708"
-			password "key"
+			username mavenUser
+			password mavenPassword
 		}
 	}
 }
